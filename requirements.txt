@@ -1,0 +1,11 @@
+aiogram>=3.13,<4
+feedparser>=6.0.10
+aiohttp>=3.9
+libsql-client>=0.3.1
+beautifulsoup4>=4.12
+lxml>=4.9
+python-dotenv>=1.0
+fastapi>=0.110
+# Only needed to run `uvicorn api.index:app --reload` locally; Vercel runs
+# the ASGI app itself and doesn't need this in production.
+uvicorn>=0.29
